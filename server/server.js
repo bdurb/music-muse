@@ -2,9 +2,10 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var request = require('request');
 var querystring = require('querystring');
+var keys = require('../src/keys');
 
-var apiKey = 'API_KEY';
-var apiSecret = 'API_SECRET';
+var apiKey = 'keys.API_KEY';
+var apiSecret = 'keys.API_SECRET';
 
 var port = 2000;
 var baseUrl = 'http://localhost:' + port;
